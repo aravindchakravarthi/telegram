@@ -1,0 +1,35 @@
+.sidebar{
+	position: absolute;
+	z-index: 10;
+	width: 250px;
+	background-color: azure;
+	color: black;
+	top: 0%;
+	height: 500vh;
+	padding: 20px;
+	transition: transform 0.3s ease-in-out;
+	transform: translateX(0%);
+
+
+}
+
+.menus{
+	height: 50px;
+	align-items: center;
+	display: flex;
+	padding-left: 10px;
+	cursor: pointer;
+	
+
+}
+
+.menus:hover{
+	background-color: rgb(198, 195, 195);
+	border-radius: 10px;
+}
+
+.right-arrow{
+	position: relative;
+	right: -200px;
+	font-size: 30px;
+}

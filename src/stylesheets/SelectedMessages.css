@@ -1,0 +1,65 @@
+.black{
+	color: black;
+}
+
+.name{
+	height: 70px;
+	color: white;
+	background-color: #001328;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	position: relative;
+	border-bottom: 1px solid rgba(56, 65, 84, 0.5);
+
+}
+
+.back{
+	position: absolute;
+	left: 3%;
+	border: none;
+	background-color: #001328;
+	
+	color: white;
+	font-size: 20px;
+}
+
+.back svg{
+	background-color: #001328;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.message-bg{
+	background-color: #021b37;
+
+	height: 500vh;
+}
+
+.message{
+	max-width: 70%;
+	color: white;
+	margin: 0 3%;
+}
+
+.message p{
+	background-color: #010b17;
+	display: inline-block;
+	border-radius: 8px;
+	padding: 5px;
+	padding-right: 50px;
+
+
+}
+
+.updated-msg{
+	position: relative;
+	padding: 10px;
+}
+.updated{
+	position: absolute;
+	font-size: 10px;
+	bottom: 5px;
+	right: 5px;
+	color: #a7b8ca;
+}

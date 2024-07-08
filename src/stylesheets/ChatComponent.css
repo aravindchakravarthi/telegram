@@ -1,0 +1,51 @@
+.chats{
+	background-color: #001328;
+	padding:10px 3%;
+	text-decoration:underline;
+
+}
+
+.chat{
+	background-color: #000e1e;
+	padding:0 3%;
+
+}
+
+.chat-list{
+	background-color: #000e1e;
+}
+
+.list{
+	height: 70px;
+	align-items: center;
+	display: flex;
+	font-size:large;
+	letter-spacing: 1px;
+	border-bottom: 1px solid rgba(56, 65, 84, 0.5);
+	cursor: pointer;
+	position: relative;
+}
+
+.profile{
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	background-color: #06274e;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-right: 5%;
+}
+
+.msg-count{
+	position: absolute;
+	right: 5%;
+	background-color: #4f75a3;
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 14px;
+}
